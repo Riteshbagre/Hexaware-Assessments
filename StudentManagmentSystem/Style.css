@@ -1,0 +1,45 @@
+
+#box{
+    background-color: rgb(66, 156, 129);
+}
+.header{
+    color: red;;
+}
+#buttons{
+    color: wheat;
+    background-color: green;
+}
+.outer{
+    height: 300px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin : 10px 10px 200px 10px;
+}
+
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid  yellow;
+    border-top: 20px solid aqua;
+    animation: Loader-Animation 3s ease-in-out 0s infinite normal;
+
+}
+
+@keyframes Loader-Animation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
